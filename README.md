@@ -25,7 +25,7 @@ Our code is tested on `Python 3.8.13`
 
 To train model from scratch: 
 
-    run train_TMM.py
+    run: python train_TMM.py
 
 data_name =  change accordingly
 batch_size, num_epoch have been set to default, can be changed as per requirements.
@@ -40,7 +40,7 @@ CIFAR10 trained model has been provided  to reproduce the results
 To test detection performance:
 1.For Offline Detection - ( only successful attacks are being  tested for detedtion, so TP and FN are measured)
 
-    run : TMM_O.py 
+    run : python TMM_O.py 
     
 2.For Live Detection -
 
